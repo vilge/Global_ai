@@ -1,0 +1,102 @@
+﻿
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #472474; /* Arka plan rengini gri yap */
+}
+
+header {
+    background-color: #000000; /* "Aİ DESIGN" arka plan rengini gri yap */
+    color: white;
+    text-align: center; /* İçerikleri merkezlemek için */
+    padding: 20px;
+    align-items: center;
+}
+
+h1 {
+    font-family: Italic;
+}
+
+logo {
+    float: left; /* Logoyu sola hizala */
+}
+
+    logo img {
+        width: 90px; /* Logo genişliği */
+        height: auto; /* Genişliğe göre otomatik yükseklik */
+        background-color: black;
+        border-radius: 50%; /* Resmi daire şeklinde yapar */
+    }
+
+.center {
+    padding: 20px;
+    display: inline-block; /* İçeriği yatay olarak hizalamak için */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    margin: 10px;
+    position: relative;
+    width: 200px; /* Tüm fotoğrafların aynı genişlikte olmasını sağlamak için */
+    height: auto; /* Otomatik yükseklik ayarı */
+    margin-bottom: 40px;
+}
+
+    .photo img {
+        width: 100%;
+        height: 100%; /* Resimlerin genişliğe oranlı olarak boyutlandırılması */
+        display: block;
+    }
+
+    .photo::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 5px solid transparent; /* 2px genişlikte şeffaf bir çerçeve */
+        transition: border-color 0.3s ease;
+    }
+
+    .photo:hover::after {
+        border-color: black; /* Mouse imleci fotoğrafın üstüne geldiğinde çerçeve siyah olacak */
+        border-block-color: #472474;
+    }
+
+.vote-btn {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #ac0000;
+    border: 5px solid black; /* Siyah çerçeve ekleyin */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Yazının fontunu kalın yap */
+}
+
+    .vote-btn:hover {
+        background-color: #ff0000; /* Mouse imleci butonun üzerine geldiğinde arkaplan rengini değiştir */
+        border-block-color: #472474;
+    }
+
+.enlarge {
+    width: 100%; /* Tam genişlik */
+    height: auto; /* Otomatik yükseklik */
+    position: fixed; /* Sayfanın en üstüne yerleştir */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999; /* Diğer öğelerin üzerine çıkart */
+    background-color: rgba(0, 0, 0, 0.8); /* Arka plan rengini koyu saydam siyah yap */
+    cursor: zoom-out; /* Fare imleci yakınlaştırma/uzaklaştırma imlecine dönüşsün */
+    margin: auto; /* Dikey ve yatay hizalama için */
+}

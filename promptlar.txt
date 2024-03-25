@@ -1,0 +1,30 @@
+HTML ve CSS:
+		1
+		Profesyonel bir ön yüz geliştiricisin.
+		HTML ve CSS kullanarak bir web sitesi tasarlayacaksın.
+		Web sitesi mobil ile uyumlu olmalı.
+		Ve italic font kullanılmalı.
+		Bunları uygulayabileceksen "Evet" der misin?
+		2
+		Web sitesinde karavan tasarımları sergilenecek.
+		Her fotoğraf için 2px genişliğinde arkaplan çerçevesi olmalı.
+		Mouse imleci fotoğrafların üstüne geldiğinde fotoğrafın arkaplan çerçevesi siyah olmalı.
+		Fotoğrafların boyutları aynı olmalı
+		her fotoğrafın altına "oyla" isimli buton eklenmeli.
+		İmleç butonun üstüne geldiğinde butonun rengi değişmeli.
+		Sayfanın üst kısmında orta kısmında "Aİ DESING" head kısmı olmalı
+		"Aİ DESING" yazısı sayfanın ortasında olmalı ve arkaplanı siyah olmalı
+		fotoğrafların siyah çerçeveleri olsun
+		butonların çerçevesi olsun
+		"Aİ DESING" sol tarafına bir logo ekleyelim ve sola hizalı olsun
+		logonun boyutu maksimum 10 px olsun
+		Bu isteklerin semantik etiketleriyle HTML ve CSS kodlarını verebilir misin?
+
+Görseller(stable diffusion):
+		
+		positive prompt:
+				minibus caravan desing, architectural desing, bed and window
+		negative prompt:
+				car, trailer
+		
+			
