@@ -86,17 +86,3 @@ logo {
         background-color: #ff0000; /* Mouse imleci butonun üzerine geldiğinde arkaplan rengini değiştir */
         border-block-color: #472474;
     }
-
-.enlarge {
-    width: 100%; /* Tam genişlik */
-    height: auto; /* Otomatik yükseklik */
-    position: fixed; /* Sayfanın en üstüne yerleştir */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999; /* Diğer öğelerin üzerine çıkart */
-    background-color: rgba(0, 0, 0, 0.8); /* Arka plan rengini koyu saydam siyah yap */
-    cursor: zoom-out; /* Fare imleci yakınlaştırma/uzaklaştırma imlecine dönüşsün */
-    margin: auto; /* Dikey ve yatay hizalama için */
-}
